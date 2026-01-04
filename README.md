@@ -10,6 +10,14 @@ Leveraging the compositionality of energy-based models, we define a family of st
 # ALPS sampling trajectory for different inverse problems
 <p align="center"> <img src="images/animation.gif" width="82%"> 
 
+# Results
+We evaluate the sampling performance of ALPS for different inverse problems with diffusion-based algorithms.
+<p align="center">
+  <img src="images/performance.png" width="50%" alt="ALPS performance"><br>
+  <em>Performance comparison of ALPS across inverse problems.</em>
+</p>
+
+
 
 
 
