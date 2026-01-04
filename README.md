@@ -9,4 +9,7 @@ Leveraging the compositionality of energy-based models, we define a family of st
 
 # Sampling trajectory of ALPS for different inverse problems
 
+<p align="center"> <img src="images/animation.gif" width="82%"> 
+
+
 
