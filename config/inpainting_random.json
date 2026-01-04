@@ -1,0 +1,28 @@
+{
+  "device": "cuda:0",
+  "output_dir": "outputs",
+  "dataset_path": "./datasets/ffhq-64x64.zip",
+  "sample_index": 0,
+
+  "operator": {
+    "type": "inpainting",
+    "params": {
+      "eta": 0.05,
+      "mask_generator": {
+        "mask_type": "random",
+        "mask_len_range": [10, 10],
+        "mask_prob_range": [0.8, 0.8],
+        "image_size": 64,
+        "margin": [0, 0]
+      }
+    }
+  },
+
+  "alps_options": {
+    "num_steps": 50,
+    "sigma_max": 100.0,
+    "sigma_min": 0.1,
+    "rho": 5.0,
+    "K": 5
+  }
+}

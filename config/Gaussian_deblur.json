@@ -1,0 +1,23 @@
+{
+  "device": "cuda:0",
+  "output_dir": "outputs",
+  "dataset_path": "./datasets/ffhq-64x64.zip",
+  "sample_index": 0,
+
+  "operator": {
+    "type": "gaussian_blur",
+    "params": {
+      "sigma": 2,
+      "eta": 0.05
+    
+    }
+  },
+
+  "alps_options": {
+    "num_steps": 10,
+    "sigma_max": 100,
+    "sigma_min": 0.1,
+    "rho": 5.0,
+    "K": 5
+  }
+}
