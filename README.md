@@ -16,6 +16,14 @@ We evaluate the sampling performance of ALPS for different inverse problems with
   <img src="images/performance.png" width="50%" alt="ALPS performance"><br>
 </p>
 
+# Pre-trained checkpoints
+Distilled energy-based models and diffusion checkpoints can be found here [Google drive](https://drive.google.com/drive/folders/1SkKeNYhJrZ_LQFL4A_BYShmCa7vmoqHb?usp=sharing)
+
+
+# Environment
+- Python: 3.9.12
+- PyTorch: 1.12.0
+- CUDA: 11.3
 
 
 
